@@ -65,8 +65,8 @@ CnR-seq（Cleavage Under Targets and Release Using Nuclease sequencing）是一�
 这个方法的优势在于可以较为精确地捕捉到染色质中动态的DNA-蛋白质相互作用或染色质结构的变化，有助于深入理解基因表达调控的机制。<br />
 
 # KEGG中的fold enrichment的计算方式 待确定<br />
-在KEGG（Kyoto Encyclopedia of Genes and Genomes）通路分析中，**Fold Enrichment（富集倍数）**是一种衡量基因集在特定生物学通路中的富集程度的指标。它通常用于评估某一特定通路中的基因是否比随机情况有更高的富集程度。<br />
-$$ \ Fold Enrichment = \frac{观察到的基因数量/ 通路中的基因总数}{基因集中的基因数量/基因组中的基因总数} $$ <br />
+在KEGG（Kyoto Encyclopedia of Genes and Genomes）通路分析中，Fold Enrichment（富集倍数）是一种衡量基因集在特定生物学通路中的富集程度的指标。它通常用于评估某一特定通路中的基因是否比随机情况有更高的富集程度。<br />  
+$$ \ Fold Enrichment = \frac{观察到的基因数量/ 通路中的基因总数}{基因集中的基因数量/基因组中的基因总数} $$     
 解释：①观察到的基因数量：在你的研究或实验中，从基因集中观察到属于特定KEGG通路的基因数量。②通路中的基因总数：在该特定KEGG通路中，所有已知基因的总数。③基因集中的基因数量：在你的研究或实验中，你所选定的基因集中的总基因数量（如差异表达基因）。④基因组中的基因总数：整个参考基因组中的所有基因的总数。<br />
 意义：①如果Fold Enrichment > 1，则表示该通路中的基因比预期的随机情况更加富集，表明该通路在生物学过程中可能发挥重要作用。②Fold Enrichment 越大，通常意味着该通路在分析的生物过程中有更显著的富集，可能与研究的特定生物功能或疾病相关联。<br />
 
